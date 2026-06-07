@@ -1,0 +1,15 @@
+{
+"offset": "0",
+"page_size": "10",
+"code": "SR1111111",
+"additional_fields": [
+"CreateTimestamp",
+"Customer.FullName",
+"Description",
+"Group.Description",
+"ScheduledEmployeeFullName",
+"StatusDescription",
+"Unit.Serial",
+"UpdateTimeLocal"
+]
+}

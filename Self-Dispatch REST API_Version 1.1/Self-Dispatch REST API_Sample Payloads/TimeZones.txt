@@ -1,0 +1,85 @@
+America/Bahia (GMT-03:00) Bahia
+America/Belem (GMT-03:00) Belem
+America/Boa_Vista (GMT-04:00) Boa_Vista
+America/Bogota (GMT-05:00) Bogota, Lima, Quito, Rio Branco
+America/Buenos_Aires (GMT-03:00) Buenos Aires
+America/Campo_Grande (GMT-04:00) Campo_Grande
+America/Chihuahua (GMT-07:00) Chihuahua, La Paz, Mazatlan
+America/Cuiaba (GMT-04:00) Cuiaba
+America/Eirunepe (GMT-05:00) Eirunepe
+America/Fortaleza (GMT-03:00) Fortaleza
+America/La_Paz (GMT-04:00) La Paz
+America/Maceio (GMT-03:00) Maceio
+America/Manaus (GMT-04:00) Manaus
+America/Montevideo (GMT-03:00) Montevideo
+America/Noronha (GMT-02:00) Noronha
+America/Porto_Velho (GMT-04:00) Porto_Velho
+America/Recife (GMT-03:00) Recife
+America/Rio_Branco (GMT-05:00) Rio_Branco
+America/Santiago (GMT-03:00) Santiago
+America/Sao_Paulo (GMT-03:00) Sao_Paulo
+America/St_Johns (GMT-03:30) St_Johns
+America/Tijuana (GMT-08:00) Tijuana, Baja California
+Asia/Amman (GMT+02:00) Amman
+Asia/Baghdad (GMT+03:00) Baghdad
+Asia/Baku (GMT+04:00) Baku
+Asia/Bangkok (GMT+07:00) Bangkok, Hanoi, Jakarta
+Asia/Beirut (GMT+02:00) Beirut
+Asia/Calcutta (GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi
+Asia/Chongqing (GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi
+Asia/Dhaka (GMT+06:00) Astana, Dhaka
+Asia/Irkutsk (GMT+08:00) Irkutsk, Ulaan Bataar
+Asia/Jerusalem (GMT+02:00) Jerusalem
+Asia/Kabul (GMT+04:30) Kabul
+Asia/Kamchatka (GMT+12:00) Kamchatka, Marshall Is.
+Asia/Karachi (GMT+05:00) Islamabad, Karachi
+Asia/Krasnoyarsk (GMT+07:00) Krasnoyarsk
+Asia/Kuwait (GMT+03:00) Kuwait, Riyadh
+Asia/Magadan (GMT+11:00) Magadan, Solomon Is., New Caledonia
+Asia/Muscat (GMT+04:00) Abu Dhabi, Muscat
+Asia/Novosibirsk (GMT+06:00) Almaty, Novosibirsk
+Asia/Rangoon (GMT+06:30) Yangon (Rangoon)
+Asia/Seoul (GMT+09:00) Seoul
+Asia/Singapore (GMT+08:00) Kuala Lumpur, Singapore
+Asia/Taipei (GMT+08:00) Taipei
+Asia/Tashkent (GMT+05:00) Tashkent
+Asia/Tbilisi (GMT+03:00) Tbilisi
+Asia/Tehran (GMT+03:30) Tehran
+Asia/Tokyo (GMT+09:00) Osaka, Sapporo, Tokyo
+Asia/Vladivostok (GMT+10:00) Vladivostok
+Asia/Yakutsk (GMT+09:00) Yakutsk
+Asia/Yekaterinburg (GMT+05:00) Ekaterinburg
+Asia/Yerevan (GMT+04:00) Yerevan
+Atlantic/Azores (GMT-01:00) Azores
+Atlantic/Reykjavik (GMT) Monrovia, Reykjavik
+Australia/Brisbane (GMT+10:00) Brisbane
+Australia/Canberra (GMT+10:00) Canberra, Melbourne, Sydney
+Australia/Darwin (GMT+09:30) Darwin, Adelaide
+Australia/Perth (GMT+08:00) Perth
+CET (GMT+01:00) West Central Africa
+Canada/Atlantic (GMT-04:00) Atlantic Time (Canada)
+Canada/Newfoundland (GMT-03:30) Newfoundland
+Canada/Saskatchewan (GMT-06:00) Saskatchewan
+Etc/GMT+12 (GMT-12:00) International Date Line West
+Etc/GMT+2 (GMT-02:00) Mid-Atlantic
+Europe/Amsterdam (GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
+Europe/Athens (GMT+02:00) Athens, Bucharest, Istanbul
+Europe/Belgrade (GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague
+Europe/Brussels (GMT+01:00) Brussels, Copenhagen, Madrid, Paris
+Europe/Helsinki (GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius
+Europe/Minsk (GMT+02:00) Minsk
+Europe/Moscow (GMT+03:00) Moscow, St. Petersburg, Volgograd
+Europe/Sarajevo (GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb
+Greenwich (GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London
+Mexico/General (GMT-06:00) Guadalajara, Mexico City, Monterrey
+Pacific/Auckland (GMT+13:00) Auckland, Fiji
+Pacific/Guam (GMT+10:00) Guam, Port Moresby
+Pacific/Midway (GMT-11:00) Midway Island, Samoa
+US/Alaska (GMT-09:00) Alaska
+US/Arizona (GMT-07:00) Arizona
+US/Central (GMT-06:00) Central America
+US/East-Indiana (GMT-05:00) Indiana (East)
+US/Eastern (GMT-05:00) Eastern
+US/Hawaii (GMT-10:00) Hawaii
+US/Mountain (GMT-07:00) Mountain
+US/Pacific (GMT-08:00) Pacific

@@ -1,0 +1,38 @@
+{
+"service_tag": "CARV005",
+"model_code": "D)002",
+"model_description": "LATITUDE E6540 NOTEBOOK SALADO15FBTX",
+"line_of_business": "Client Solutions Pbu",
+"components": [
+{
+"commodity": "CABLES AND CORDS",
+"component": "Cable, Connector and Cord",
+"subcomponent": "Power Cord",
+"part_number": "K260C",
+"part_description": "CORD,PWR,125V,2.5A,1M,C5,US",
+"is_battery": false,
+"eligible_for_dispatch": true,
+"require_serial": false
+},
+{
+"commodity": "SCREW",
+"component": "Screw",
+"subcomponent": "Screw",
+"part_number": "4270E",
+"part_description": "SCR,M2X3,KSH,MS,BLO",
+"is_battery": false,
+"eligible_for_dispatch": true,
+"require_serial": false
+},
+{
+"commodity": "SOFTWARE",
+"component": "Software",
+"subcomponent": "Kit, Software",
+"part_number": "X1WGC",
+"part_description": "KIT,SW,CRTV,CMRA,BUSNS,1.4.X",
+"is_battery": false,
+"eligible_for_dispatch": true,
+"require_serial": false
+}
+]
+}

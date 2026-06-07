@@ -1,0 +1,19 @@
+{
+"offset": "0",
+"page_size": "2",
+"created_from_date": "2023-07-17",
+"scope": "All",
+"in_statuses": [
+"Parts Review"
+],
+"additional_fields": [
+"CreateTimestamp",
+"Customer.FullName",
+"Description",
+"Group.Description",
+"ScheduledEmployeeFullName",
+"StatusDescription",
+"Unit.Serial",
+"UpdateTimeLocal"
+]
+}

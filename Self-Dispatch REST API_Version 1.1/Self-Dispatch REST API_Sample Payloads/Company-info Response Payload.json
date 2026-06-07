@@ -1,0 +1,19 @@
+{
+"company_id": "11111C933044A66BBBBEB229778888",
+"relationships": [
+{
+"branch_id": "76E85E2000001111155554F38E8402EE",
+"branch_description": "EMEA",
+"customer_id": "5348F72Axxxxxxxxxxxxxxx1DB5EEF30",
+"customer_name": "EMEA",
+"track": "Tier 1"
+},
+{
+"branch_id": "46A6010000001111155555053EB3E6C",
+"branch_description": "test",
+"customer_id": "EA622F846FFA4C58ADF2DD55C5C5B730",
+"customer_name": "test",
+"track": "Tier 1"
+}
+]
+}
