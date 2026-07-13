@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card statbar">
+  <form method="post" action="/run"><button>Run discovery now</button></form>
+  {% for s in ["", "discovered", "matched", "queued", "skipped", "filtered", "applied"] %}
+    <a class="pill {{ s }}" href="/?status={{ s }}" {% if active == s %}style="outline:2px solid var(--accent)"{% endif %}>
+      {{ s or "all" }} {% if s %}({{ counts.get(s, 0) }}){% endif %}
+    </a>
+  {% endfor %}
+  {% if last_run %}<span class="muted">last run {{ last_run["ran_at"] }} UTC — {{ last_run["summary"] }}</span>
+  {% else %}<span class="muted">no runs yet — hit the button</span>{% endif %}
+</div>
+
+<div class="card">
+<table>
+  <tr><th>Score</th><th>Title</th><th>Company</th><th>Location</th><th>Posted</th><th>Status</th></tr>
+  {% for j in jobs %}
+  <tr>
+    <td>{{ j["score"] if j["score"] is not none else "—" }}</td>
+    <td><a href="{{ j['url'] }}" target="_blank" rel="noopener">{{ j["title"] }}</a>
+      {% if j["score_reason"] %}<div class="muted">{{ j["score_reason"] }}</div>{% endif %}</td>
+    <td>{{ j["company"] }} <span class="muted">({{ j["source"] }})</span></td>
+    <td>{{ j["location"] }}{% if j["remote"] %} 🌍{% endif %}</td>
+    <td>{{ j["posted_at"] or "—" }}</td>
+    <td><span class="pill {{ j['status'] }}">{{ j["status"] }}</span></td>
+  </tr>
+  {% else %}
+  <tr><td colspan="6" class="muted">Nothing here yet. Configure companies in Settings, add your profile, then run discovery.</td></tr>
+  {% endfor %}
+</table>
+</div>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Profile</h2>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+
+<div class="card">
+  <form method="post" action="/profile/resume">
+    <label>Resume (paste plain text)</label>
+    <textarea name="resume_text" rows="14">{{ profile["resume_text"] }}</textarea>
+    <p><button class="ghost">Save resume text</button></p>
+  </form>
+  <form method="post" action="/profile/parse">
+    <button>Parse with LLM → structured profile</button>
+  </form>
+  {% if profile["resume_json"] %}
+    <label>Parsed profile (used for matching &amp; drafting)</label>
+    <pre class="muted" style="white-space:pre-wrap">{{ profile["resume_json"] }}</pre>
+  {% else %}
+    <p class="muted">Not parsed yet — matching and drafting won't run until this exists.</p>
+  {% endif %}
+</div>
+
+<div class="card">
+  <h3>Screening answers bank</h3>
+  <p class="muted">Answered once, reused on every application. Leave blank to be flagged per-job instead.</p>
+  <form method="post" action="/profile/answers">
+    {% for row in bank %}
+      <label>{{ row["question"] }}</label>
+      <input type="hidden" name="q{{ loop.index0 }}" value="{{ row['question'] }}">
+      <input type="text" name="a{{ loop.index0 }}" value="{{ row['answer'] }}">
+    {% endfor %}
+    <label>Add a question</label>
+    <input type="text" name="new_question" placeholder="e.g. Do you have a driver's license?">
+    <label>Its answer</label>
+    <input type="text" name="new_answer">
+    <p><button>Save answers</button></p>
+  </form>
+</div>
+{% endblock %}

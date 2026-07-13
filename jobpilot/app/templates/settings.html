@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Settings</h2>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+
+<div class="card">
+  <form method="post" action="/settings">
+    <label>Title keywords (comma-separated — a job title must contain at least one; empty = all titles)</label>
+    <input type="text" name="title_keywords" value="{{ settings['title_keywords'] }}" placeholder="engineer, developer, python">
+
+    <label>Blocklist keywords (comma-separated — hit in title or location filters the job out)</label>
+    <input type="text" name="blocklist" value="{{ settings['blocklist'] }}" placeholder="staffing, clearance, onsite">
+
+    <label>Remote only</label>
+    <select name="remote_only">
+      <option value="0" {% if settings['remote_only'] != '1' %}selected{% endif %}>No — any location</option>
+      <option value="1" {% if settings['remote_only'] == '1' %}selected{% endif %}>Yes — remote roles only</option>
+    </select>
+
+    <label>Match strictness (minimum LLM fit score to queue a draft)</label>
+    <select name="strictness">
+      {% for opt, thr in [("strict", 80), ("balanced", 65), ("loose", 50)] %}
+      <option value="{{ opt }}" {% if settings['strictness'] == opt %}selected{% endif %}>{{ opt }} (≥{{ thr }})</option>
+      {% endfor %}
+    </select>
+
+    <label>Daily cap (max jobs queued/applied per day)</label>
+    <input type="number" name="daily_cap" value="{{ settings['daily_cap'] }}" min="1">
+
+    <label>Max posting age (days)</label>
+    <input type="number" name="max_age_days" value="{{ settings['max_age_days'] }}" min="1">
+
+    <label>Company boards to crawl (JSON: source → list of board slugs)</label>
+    <textarea name="companies_json" rows="10">{{ companies_json }}</textarea>
+    <p class="muted">Slugs come from the career-page URL: boards.greenhouse.io/<b>slug</b>, jobs.lever.co/<b>slug</b>, jobs.ashbyhq.com/<b>slug</b>.</p>
+
+    <p><button>Save settings</button></p>
+  </form>
+</div>
+{% endblock %}

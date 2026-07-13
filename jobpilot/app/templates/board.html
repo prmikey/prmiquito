@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Application board</h2>
+<div class="columns">
+  {% for status in statuses %}
+  <div class="col card">
+    <h3><span class="pill {{ status }}">{{ status }}</span> {{ columns[status]|length }}</h3>
+    {% for j in columns[status] %}
+    <div class="kcard">
+      <a href="{{ j['url'] }}" target="_blank" rel="noopener">{{ j["title"] }}</a><br>
+      <span class="muted">{{ j["company"] }} · {{ j["updated_at"][:10] }}</span>
+      <div class="row-actions">
+        {% for target in statuses if target != status %}
+        <form method="post" action="/jobs/{{ j['id'] }}/status">
+          <input type="hidden" name="status" value="{{ target }}">
+          <input type="hidden" name="back" value="/board">
+          <button class="ghost" style="padding:.1rem .4rem;font-size:.72rem">{{ target }}</button>
+        </form>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

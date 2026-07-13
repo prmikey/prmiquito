@@ -1,0 +1,5 @@
+{
+  "greenhouse": ["stripe", "cloudflare", "duolingo"],
+  "lever": ["plaid", "kraken"],
+  "ashby": ["ramp", "linear"]
+}

@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Review queue</h2>
+<p class="muted">Edit the drafts, open the posting, paste your answers in, then mark it applied.
+Answers marked <span class="flag-llm">AI-drafted</span> or <span class="flag-blank">blank</span> need your eyes.</p>
+
+{% for item in queue %}
+{% set j = item.job %}
+<div class="card">
+  <div class="statbar">
+    <strong>{{ j["title"] }}</strong> @ {{ j["company"] }}
+    <span class="pill">{{ j["score"] }}/100</span>
+    <a class="btn ghost" href="{{ j['url'] }}" target="_blank" rel="noopener">Open posting ↗</a>
+    <form method="post" action="/jobs/{{ j['id'] }}/status">
+      <input type="hidden" name="status" value="applied">
+      <input type="hidden" name="back" value="/review">
+      <button>Mark applied ✓</button>
+    </form>
+    <form method="post" action="/jobs/{{ j['id'] }}/status">
+      <input type="hidden" name="status" value="skipped">
+      <input type="hidden" name="back" value="/review">
+      <button class="ghost">Skip</button>
+    </form>
+  </div>
+  <div class="muted">{{ j["score_reason"] }}</div>
+
+  <form method="post" action="/jobs/{{ j['id'] }}/draft">
+    <label>Cover letter</label>
+    <textarea name="cover_letter" rows="8">{{ j["cover_letter"] }}</textarea>
+    {% for a in item.answers %}
+      <label>{{ a.question }}
+        {% if a.source == "llm" %}<span class="flag-llm">AI-drafted — review before use</span>{% endif %}
+        {% if a.source == "blank" %}<span class="flag-blank">blank — fill in</span>{% endif %}
+      </label>
+      <input type="hidden" name="q{{ loop.index0 }}" value="{{ a.question }}">
+      <textarea name="a{{ loop.index0 }}" rows="2">{{ a.answer }}</textarea>
+    {% endfor %}
+    <p><button class="ghost">Save edits</button></p>
+  </form>
+</div>
+{% else %}
+<div class="card muted">Queue is empty. Run discovery from the Jobs page once your profile and settings are in place.</div>
+{% endfor %}
+{% endblock %}
