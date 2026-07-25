@@ -1,0 +1,61 @@
+[
+{
+"code": "SR1111111",
+"status": "Parts Review",
+"dell_dispatch_number": "",
+"dps_number": "",
+"order_denied_reason": "",
+"doa": false,
+"epsa_error_code": "",
+"epsa_validation_code": "",
+"problem_description": "note",
+"troubleshooting_notes": "note",
+"waybill": "",
+"parts": [
+{
+"part_number": "OTR",
+"part_description": "Other - please specify",
+"part_type": "Other",
+"ppid": "",
+"quantity": 1,
+"part_cru_fru": "",
+"override_part_number": "CPW3K",
+"serializable": false
+}
+],
+"properties": [
+{
+"name": "CreateTimestamp",
+"value": "20230719092431"
+},
+{
+"name": "Customer.FullName",
+"value": "TESTCst"
+},
+{
+"name": "Description",
+"value": "TESTETSTESTESTEST"
+},
+{
+"name": "Group.Description",
+"value": "TD1234"
+},
+{
+"name": "ScheduledEmployeeFullName",
+"value": "TDTD,TD"
+},
+{
+"name": "StatusDescription",
+"value": "Under Review"
+},
+{
+"name": "Unit.Serial",
+"value": "1XX1XX1"
+},
+{
+"name": "UpdateTimeLocal",
+"value": "20230719092522"
+}
+]
+}
+]

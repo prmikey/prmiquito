@@ -1,0 +1,375 @@
+{
+"service_tag": null,
+"model_code": "!!002",
+"model_description": "INACTIVE-INSPIRON SMARTSTEP 100N,CEL-1066 NB TUAL
+UFC-PGA,NOTEBOOK,TANG",
+"line_of_business": "Client Products",
+"parts": [
+{
+"part_type_code": "Keyboards and Mice",
+"part_number": "KBN",
+"part_description": "Keyboard, Portable Internal",
+"serializable": false
+},
+{
+"part_type_code": "Hard Drives, Accessories",
+"part_number": "HRD",
+"part_description": "Storage, Hard Drive",
+"serializable": false
+},
+{
+"part_type_code": "Motherboards",
+"part_number": "MBD",
+"part_description": "System Board / Motherboard",
+"serializable": false
+},
+{
+"part_type_code": "LCD Plastics, Covers, Accessor",
+"part_number": "LCH",
+"part_description": "LCD, Latch Hook",
+"serializable": false
+},
+{
+"part_type_code": "Other",
+"part_number": "OTR",
+"part_description": "Other - please specify",
+"serializable": false
+},
+{
+"part_type_code": "PCMCIA Card",
+"part_number": "NID",
+"part_description": "Dongle, PC Card, Network",
+"serializable": false
+},
+{
+"part_type_code": "PCMCIA Card",
+"part_number": "MDD",
+"part_description": "Dongle, PC Card, Modem",
+"serializable": false
+},
+{
+"part_type_code": "Modems, Accessories",
+"part_number": "MDM",
+"part_description": "Expansion Card, Modem",
+"serializable": false
+},
+{
+"part_type_code": "Bottom Plastic Assembly",
+"part_number": "MLT",
+"part_description": "Latch, Module Bay Latch",
+"serializable": false
+},
+{
+"part_type_code": "Mechanical/Chassis",
+"part_number": "PLO",
+"part_description": "Plastics, Optical Bezel",
+"serializable": false
+},
+{
+"part_type_code": "Network Cards, Adapters",
+"part_number": "NIC",
+"part_description": "Expansion Card, Network (NIC)",
+"serializable": false
+},
+{
+"part_type_code": "Video Card (VGA)",
+"part_number": "DVC",
+"part_description": "Cable, DVI to VGA ",
+"serializable": false
+},
+{
+"part_type_code": "Wireless",
+"part_number": "BTH",
+"part_description": "Card, Bluetooth",
+"serializable": false
+},
+{
+"part_type_code": "Modems, Accessories",
+"part_number": "PCM",
+"part_description": "PC Card/Mini PCI/MDC, Modem",
+"serializable": false
+},
+{
+"part_type_code": "Video Card (VGA)",
+"part_number": "DVI",
+"part_description": "DVI to VGA adapter",
+"serializable": false
+},
+{
+"part_type_code": "Bottom Plastic Assembly",
+"part_number": "PLM",
+"part_description": "Plastics, Memory Door Cover",
+"serializable": false
+},
+{
+"part_type_code": "Wireless",
+"part_number": "PCC",
+"part_description": "PC Card/Mini PCI, Combo",
+"serializable": false
+},
+{
+"part_type_code": "Accessory",
+"part_number": "CAS",
+"part_description": "Carrying Case",
+"serializable": false
+},
+{
+"part_type_code": "Network Cards, Adapters",
+"part_number": "PCN",
+"part_description": "PC Card/Mini PCI, Network",
+"serializable": false
+},
+{
+"part_type_code": "Screws",
+"part_number": "SCK",
+"part_description": "Screw, Keyboard (K)",
+"serializable": false
+},
+{
+"part_type_code": "Speakers",
+"part_number": "ESP",
+"part_description": "Speakers, External",
+"serializable": false
+},
+{
+"part_type_code": "Mechanical/Chassis",
+"part_number": "CPN",
+"part_description": "Panel, Control (Pwr/Reset)",
+"serializable": false
+},
+{
+"part_type_code": "LCD Plastics, Covers, Accessor",
+"part_number": "LCC",
+"part_description": "LCD, Cable only",
+"serializable": false
+},
+{
+"part_type_code": "LCD/Display Assembly Service K",
+"part_number": "LCI",
+"part_description": "LCD, Inverter only",
+"serializable": false
+},
+{
+"part_type_code": "Screws",
+"part_number": "SCL",
+"part_description": "Screw, LCD (D)",
+"serializable": false
+},
+{
+"part_type_code": "CD-ROM/CDRW, Accessories",
+"part_number": "CDW",
+"part_description": "Removable Storage, CDRW",
+"serializable": false
+},
+{
+"part_type_code": "Screws",
+"part_number": "SCP",
+"part_description": "Screw, Palm Rest (P)",
+"serializable": false
+},
+{
+"part_type_code": "LCD Plastics, Covers, Accessor",
+"part_number": "LCL",
+"part_description": "LCD, Latch",
+"serializable": false
+},
+{
+"part_type_code": "Floppy Drives, Accessories",
+"part_number": "FLD",
+"part_description": "Removable Storage, Floppy",
+"serializable": false
+},
+{
+"part_type_code": "LCD Plastics, Covers, Accessor",
+"part_number": "PLH",
+"part_description": "Plastics, Hinge Cover",
+"serializable": false
+},
+{
+"part_type_code": "LCD Plastics, Covers, Accessor",
+"part_number": "PLC",
+"part_description": "Plastics, Cover above KB",
+"serializable": false
+},
+{
+"part_type_code": "Docking Station/Port Replicato",
+"part_number": "PR2",
+"part_description": "Docking Station (C/D-Dock)",
+"serializable": true
+},
+{
+"part_type_code": "CD-ROM/CDRW, Accessories",
+"part_number": "CDR",
+"part_description": "Removable Storage, CD",
+"serializable": false
+},
+{
+"part_type_code": "Docking Station/Port Replicato",
+"part_number": "APR",
+"part_description": "Port Replicator (C/D-Port)",
+"serializable": true
+},
+{
+"part_type_code": "DVD-ROMs, Accessories",
+"part_number": "DVD",
+"part_description": "Removable Storage, DVD",
+"serializable": false
+},
+{
+"part_type_code": "Wireless",
+"part_number": "WIR",
+"part_description": "Card, Wireless",
+"serializable": false
+},
+{
+"part_type_code": "Speakers",
+"part_number": "ISP",
+"part_description": "Speakers, Internal",
+"serializable": false
+},
+{
+"part_type_code": "Power Source",
+"part_number": "CMS",
+"part_description": "Battery, CMOS",
+"serializable": false
+},
+{
+"part_type_code": "Heatsinks, Fans and Accessorie",
+"part_number": "HSK",
+"part_description": "Heatsink",
+"serializable": false
+},
+{
+"part_type_code": "Video Card (VGA)",
+"part_number": "VCD",
+"part_description": "Expansion Card, Video",
+"serializable": false
+},
+{
+"part_type_code": "Processor Modules",
+"part_number": "CPU",
+"part_description": "Processor / CPU",
+"serializable": false
+},
+{
+"part_type_code": "Power Source",
+"part_number": "RBT",
+"part_description": "Battery, Removable",
+"serializable": true
+},
+{
+"part_type_code": "Heatsinks, Fans and Accessorie",
+"part_number": "PFF",
+"part_description": "Processor Fan",
+"serializable": false
+},
+{
+"part_type_code": "DVD-ROMs, Accessories",
+"part_number": "DRW",
+"part_description": "Removable Storage, DVD-RW",
+"serializable": false
+},
+{
+"part_type_code": "Bottom Plastic Assembly",
+"part_number": "PLB",
+"part_description": "Plastics, Bottom Plastics",
+"serializable": false
+},
+{
+"part_type_code": "Keyboards and Mice",
+"part_number": "MSE",
+"part_description": "Mouse",
+"serializable": false
+},
+{
+"part_type_code": "LCD Plastics, Covers, Accessor",
+"part_number": "PLL",
+"part_description": "Plastics, LCD Bezel",
+"serializable": false
+},
+{
+"part_type_code": "DVD-ROMs, Accessories",
+"part_number": "CDD",
+"part_description": "Removable Storage, CDRW/DVD",
+"serializable": false
+},
+{
+"part_type_code": "Palmrests",
+"part_number": "PRA",
+"part_description": "Palm Rest (incl Touch Pad)",
+"serializable": false
+},
+{
+"part_type_code": "LCD Plastics, Covers, Accessor",
+"part_number": "PLT",
+"part_description": "Plastics, Top Cover",
+"serializable": false
+},
+{
+"part_type_code": "Keyboards and Mice",
+"part_number": "KBD",
+"part_description": "Keyboard, Desktop",
+"serializable": false
+},
+{
+"part_type_code": "Memory",
+"part_number": "MEM",
+"part_description": "Memory, SIMM/DIMM/CRIMM",
+"serializable": false
+},
+{
+"part_type_code": "Displays",
+"part_number": "MON",
+"part_description": "Display, Monitor",
+"serializable": true
+},
+{
+"part_type_code": "Cables and Cords",
+"part_number": "PWC",
+"part_description": "Power Cord (AC Adpt not incl)",
+"serializable": false
+},
+{
+"part_type_code": "Power Source",
+"part_number": "ACA",
+"part_description": "AC Adapter (Pwr Crd not Incl)",
+"serializable": true
+},
+{
+"part_type_code": "LCD/Display Assembly Service K",
+"part_number": "LCD",
+"part_description": "LCD, Kit",
+"serializable": false
+},
+{
+"part_type_code": "Heatsinks, Fans and Accessorie",
+"part_number": "ICF",
+"part_description": "Cooling Fan",
+"serializable": false
+},
+{
+"part_type_code": "AGX",
+"part_number": "AGX",
+"part_description": "AGX Ruggedized",
+"serializable": false
+},
+{
+"part_type_code": "Miscellaneous Hardware",
+"part_number": "M01",
+"part_description": "Mobile Test Part One",
+"serializable": false
+},
+{
+"part_type_code": "Hard Drives, Accessories",
+"part_number": "SSD",
+"part_description": "Solid State Drive",
+"serializable": false
+},
+{
+"part_type_code": "AGX",
+"part_number": "AGX1",
+"part_description": "AGX1",
+"serializable": false
+}
+]
+}

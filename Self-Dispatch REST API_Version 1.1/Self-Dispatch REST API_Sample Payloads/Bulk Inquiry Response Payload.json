@@ -1,0 +1,114 @@
+{
+    "dispatches": [
+{
+"code": "SR1111111",
+"status": "Parts Review",
+"dell_dispatch_number": "",
+"order_denied_reason": "",
+"doa": false,
+"epsa_error_code": "",
+"epsa_validation_code": "",
+"waybill": "",
+"parts": [
+{
+"part_number": "PWC",
+"part_description": "Power Cord (AC Adpt not incl)",
+"part_type": "Cables and Cords",
+"ppid": "CN111111111111111111",
+"quantity": 1,
+"part_cru_fru": "CRU",
+"override_part_number": "PWC",
+"serializable": false
+}
+],
+"properties": [
+{
+"name": "CreateTimestamp",
+"value": "20230711113103"
+},
+{
+"name": "Customer.FullName",
+"value": "TESTCst"
+},
+{
+"name": "Description",
+"value": "TESTETSTESTESTEST"
+},
+{
+"name": "Group.Description",
+"value": "TD1234"
+},
+{
+"name": "ScheduledEmployeeFullName",
+"value": "TDTD,TD"
+},
+{
+"name": "StatusDescription",
+"value": "Under Review"
+},
+{
+"name": "Unit.Serial",
+"value": "1XX1XX1"
+},
+{
+"name": "UpdateTimeLocal",
+"value": "20230711113153"
+}
+]
+},
+{
+"code": "SR1111112",
+"status": "Parts Review",
+"dell_dispatch_number": "",
+"order_denied_reason": "",
+"waybill": "",
+"parts": [
+{
+"part_number": "PWC",
+"part_description": "Power Cord (AC Adpt not incl)",
+"part_type": "Cables and Cords",
+"ppid": "CN111111111111111111",
+"quantity": 1,
+"part_cru_fru": "CRU",
+"override_part_number": "PWC",
+"serializable": false
+}
+],
+"properties": [
+{
+"name": "CreateTimestamp",
+"value": "20230711113501"
+},
+{
+"name": "Customer.FullName",
+"value": "TESTCst"
+},
+{
+"name": "Description",
+"value": "TESTETSTESTESTEST"
+},
+{
+"name": "Group.Description",
+"value": "TD1234"
+},
+{
+"name": "ScheduledEmployeeFullName",
+"value": "TDTD,TD"
+},
+{
+"name": "StatusDescription",
+"value": "Under Review"
+},
+{
+"name": "Unit.Serial",
+"value": "1XX1XX1"
+},
+{
+"name": "UpdateTimeLocal",
+"value": "20230711113541"
+}
+]
+}
+]
+    "total_count": 2
+}
